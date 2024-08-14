@@ -6,5 +6,5 @@ module.exports = {
     title: `Gatsby Playground`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
-}
+  plugins: ['gatsby-plugin-image', 'gatsby-plugin-sharp'],
+};
